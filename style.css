@@ -1,0 +1,354 @@
+
+.marquee{
+    background-color: orange;
+    padding: 10px;
+}
+
+.container {
+    
+    color: white;
+
+}
+ .button-1{
+    background-color: orangered;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+ }
+
+ 
+
+.banner1{
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - -100px);
+    margin-top: -5%;
+}
+
+.vid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+}
+.banner1 .container{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+.section-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.banner1 .section-overlay{
+    z-index: 2;
+    opacity: 0.5;
+}
+p {
+   margin-top: 30px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    left: 0;
+    margin-top: 30px;
+}
+
+.nav-present{
+    margin-top: 10%;
+}
+
+.nav-present p{
+    text-align: center;
+}
+.nav-present h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+}
+.button-2{
+    background-color: orangered;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-left: 46%;
+}
+.footer-row{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.icon{
+    color: orangered;
+}
+.icon-2{
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 5%;
+}
+
+.footer-row p{
+    font-weight: 800;
+    font-size: 18px;
+}
+.brand{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+.navbar{
+    background-color: rgba(17, 17, 17, 0.565) ;
+    z-index: 4;
+    
+}
+.navbar .container-nav a{
+    color: white;
+   }
+
+
+ /* second container */
+ .container-about{
+    background-image: url('./images/Image\ 2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lorem{
+    font-weight: bold;
+    font-size: 40px;
+}
+.lorem-2{
+    font-weight: bolder;
+    
+}
+.icons{
+    background-color: rgb(236, 161, 20);
+    width: 80%;
+    height: 84x;
+    padding: 20%;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.about-us{
+    padding: 50px;
+    margin-top: 3%;
+}
+
+.about-pix{
+    padding: 50px;
+    margin-top: 3%;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+ 
+   
+}
+.card-section{
+    position: absolute;
+    bottom: 28%;
+    width:80%;
+    height:120px;
+    margin-left: 2%;
+    background-color: rgba(255, 246, 246, 0.8);
+    border-radius: 30px;
+ 
+}
+
+
+.card-img1{
+    height: 90%;
+}
+.artist2{
+    background-color: white;
+    box-shadow: 10px 3px 25px black;
+    border-radius: 5px;
+   margin-left: 27%;
+}
+
+
+.artist1 {
+     background-color: white;
+    box-shadow: 10px 3px 25px black;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.container-artist  h3{
+text-align: center;
+margin-top: 45px;
+}
+
+.container-table{
+    background-image: url('./images/Image1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.tablehead th{
+    background-color: orangered;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.tablehead2 .tablecenter{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white; 
+}
+
+.tablehead2 .top{
+    background-color: black;
+}
+.tablehead2 .bgtable{
+    background-image: url(./images/artist3.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-position-y: 60%;
+    color: white;
+    text-align: center;
+}
+.tablehead2 .tablepix2{
+    background-image: url(./images/artist2.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-position-y: 60%;
+    color: white;
+    text-align: center;
+}
+.tablehead2 .tablepix3{
+    background-image: url(./images/artist1.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-position-y: 60%;
+    color: white;
+    text-align: center;
+}
+.tablehead2 .tablepix4{
+    height: 200px;
+    background-position-y: 60%;
+    color: white;
+    text-align: center;
+}
+.tablebottom .table6{
+     background-color:rgb(235, 224, 224);
+}
+
+.tablehead th:last-child{
+    border-top-right-radius: 30px;
+    border: none;
+}
+.tablehead th:first-child{
+    border-top-left-radius: 30px;
+    border: none;
+}
+.tablebottom th:first-child{
+    border-bottom-left-radius: 30px;
+    border: none;
+    border-bottom: none;
+}
+.tablebottom td:last-child{
+    border-bottom-right-radius: 30px;
+    border: none;
+}
+
+.tablehead2 .table5{
+    background-color:rgb(250, 203, 203);
+}
+.tablehead2 .tablepix4{
+    background-color:rgb(250, 203, 203);
+}
+
+.tabletext{
+    padding-top: 10%;
+}
+.tablebottom .top{
+    color: white;
+    text-align: center;
+}
+.tablehead2 .top{
+    color: white;
+    text-align: center;
+}
+
+.form-section{
+background-color: rgb(255, 255, 255);
+width: 800px;
+height:400px;
+margin-top: 5%;
+box-shadow: 10px 10px 27px black;
+border-radius: 30px;
+}
+
+.btn1 {
+    margin-left: 39%;
+    border-radius: 40px;
+     
+}
+.form-section1 h1{
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+   .navbar{
+    background-color: rgb(31, 29, 29);
+
+   }
+   .navbar .container-nav a{
+    color: white;
+    
+   }
+    .button-2{
+        margin-left: 40%;
+    }
+    .nav-present h1{
+        font-size: 55px;
+    }
+    .banner1{
+        margin-top: -7;
+    }
+    .card-section{
+        margin-top: -60%;
+        
+    }
+    .icons {
+        background-color: rgb(236, 161, 20);
+        width: 80%;
+        height: 45px;
+        margin-top: 20px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 20px;
+        padding: 15%;
+    }
+    .card-section{
+        width: 70%;
+    }
+    .artist1{
+        margin-left: 12%;
+        margin-bottom: 6%;
+    }
+    .artist2{
+        margin-left: 12%;
+        margin-bottom: 6%;
+    }
+    
+  }
+
+ 

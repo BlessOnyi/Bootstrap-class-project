@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>my work on bootstrap/css</title>
+</head>
+
+<body>
+  <div class="marquee">
+    <marquee behavior="" direction=""> <i class="fa-solid fa-user"></i></i>Welcome to Music Festival 2023 </marquee>
+  </div>
+
+
+  <nav class="navbar sticky-top navbar-expand-lg container-fluid">
+    <div class="container-fluid container-nav">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#artist">Artist</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="banner1">
+    <div class="section-overlay"></div>
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row">
+        <div class="nav-present col-12 mb-3">
+          <p class="">FESTAVA LIVE PRESENTS</p>
+          <h1>Night Live 2023</h1>
+          <button class="button-2 mt-2 mb-5 ">Let's begin</button>
+        </div>
+        <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+          <div class="">
+            <p>
+              <i class="fa-regular fa-clock  icon"></i> &nbsp;10-12 <sup>th</sup>, Dec 2023
+            </p>
+          </div>
+          <div class="mx-auto py-3 py-lg-0">
+            <p>
+              <i class="fa-solid fa-location-dot icon"></i> &nbsp;National Center, United states.
+            </p>
+          </div>
+          <div class="">
+            <ul class="d-flex justify-content-center align-items-center">
+              <p class="me-3">
+                Share
+              </p>
+              <li class="fa-brands fa-facebook  bg-danger  p-1 icon-2 "></li>
+              <li class="fa-brands fa-twitter bg-danger  p-1 icon-2"></li>
+              <li class="fa-brands fa-instagram bg-danger  p-1 icon-2"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vid-wrap">
+      <video autoplay muted loop class="vid">
+        <source src="./VID-20230803-WA0000.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <div class="container-fluid container-about">
+    <div class="row">
+      <div class="col-md-6  col-sm-12 about-us text-light">
+        <div>
+          <h3 class="lorem">About Festava 2023</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Eligendi deserunt, fugit velit consectetur nobis explicabo
+            esse, sint reprehenderit voluptate, officiis nihil? Harum voluptates numquam, cum dicta sit
+            alias nemo nulla quo est quaerat repudiandae asperiores tempora ut, eaque distinctio nihil.
+          </p>
+        </div>
+        <div>
+          <h5 class="lorem-2">Once in a Life time Experience</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit hic maiores ut voluptatum ipsam
+            vitae.</p>
+        </div>
+        <div>
+          <h5 class="lorem-2">Whole Night Party</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, inventore.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 about-pix">
+        <div class="card">
+          <img src="./images/Image 3.jpeg " class="card-img" alt="...">
+        </div>
+        <div class="container text-dark card-section">
+          <div class="row">
+            <div class="col-md-3 col-3">
+              <i class="fa-solid fa-user icons "></i>
+
+            </div>
+            <div class="col-md-9 pt-3 col-9">
+              <h4>a happy moment</h4>
+              <span> your amazing festival experience with us</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container container-artist" id="artist">
+    <h3 class="text-dark fs-30">Meet Artist</h3>
+    <div class="row">
+      <div class="col-md-6  col-sm-12 col-img" data-aos="fade-left">
+        <img src="./images/blessm.jpg" class="img-fluid artist2 w-75" alt="">
+      </div>
+      <div class="col-md-6 col-sm-12" data-aos="fade-right">
+        <img src="./images/artist1.jpeg" class="img-fluid  artist1 w-75" alt="">
+        <div class="row">
+          <div class="col-12" data-aos="fade-left">
+            <img src="./images/artist3.jpeg" class="img-fluid  artist1 w-75" alt="">
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div class="container-fluid container-table" >
+      <div class="container">
+
+        <h1 class="text-center tabletext">EVENT SCHEDULE</h1>
+        <div class="table-responsive">
+          <table class=" container table table-bordered ">
+
+            <thead>
+              <tr class="tablehead">
+                <th scope="col">Date</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="tablehead2">
+                <th class="tablecenter" scope="row">Day1</th>
+                <td class="bgtable">
+                  <h5>Pop Night</h5>
+                  <p>5:00 - 7:00PM</p>
+                  <p>By Adele</p>
+                </td>
+                <td class="table5"></td>
+                <td class="tablepix2">
+                  <h4>Rock & Roll</h4>
+                  <p>7:00 - 11:00 PM</p>
+                  <P>By Rihana</P>
+                </td>
+              </tr>
+              <tr class="tablehead2">
+                <th class="tablecenter" scope="row">Day2</th>
+                <td class="tablepix4"></td>
+                <td class="top">
+                  <h4>Dj Night</h4>
+                  <p>6:30 - 9:30 PM</p>
+                  <P>By Rihana</P>
+                </td>
+                <td class=""></td>
+              </tr>
+              <tr class="tablebottom tablehead2">
+                <th class="tablecenter" scope="row">Day3</th>
+                <td class="tablepix3">
+                  <h4>Country Music</h4>
+                  <p>4:30 - 7:30 PM</p>
+                  <P>By Rihana</P>
+                </td>
+                <td class="table6"></td>
+                <td class="top">
+                  <h4>Free Style</h4>
+                  <p>6:00 - 10:00 PM</p>
+                  <p>By Members</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="form-section1 mt-5">
+      <h1 class="text-center"> Interested, Lets Talk</h1>
+      <div class="container form-section" data-aos="zoom-in-left">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="text" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="text" placeholder="Full Name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email Address</label>
+            <input type="Email" class="form-control" id="EmailPassword4" placeholder="Email address">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Company">
+          </div>
+          <div class="col-12">
+            <label for="comment"></label>
+            <textarea name="comment" id="comment" class="form-control" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-danger btn1  ">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
